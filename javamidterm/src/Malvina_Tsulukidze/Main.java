@@ -17,6 +17,7 @@ public class Main {
         question.put("ნახვამდის", "ნახვამდის");
         String x;
         Scanner scanner = new Scanner(System.in);
+        System.out.println("სიტყვებს შორის Space ჩანაცვლეთ დეფისით!");
         while(y>15) {
             x = scanner.next();
             System.out.println(question.get(x));
